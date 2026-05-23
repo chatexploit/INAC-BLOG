@@ -1,520 +1,692 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - INAC VENTURES PVT LTD</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pest Control in Kerala | Termite, Rat & Mosquito Control | Home Safety Pest Control</title>
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <meta name="description" content="Professional pest control services in Kerala including termite treatment, rat control, cockroach gel, mosquito fogging and bed bug removal.best pest control service in kerala.Over 16 years of experience,main branches in idukki,ernakulam,adimaly,munnar,kumily,thodupuzha,angamaly. Safe and guaranteed service.">
+    <meta name="keywords" content="Pest Control Kerala, Termite Treatment Kerala, Rat Control Kerala, Cockroach Control Kerala, Mosquito Fogging Kerala, Bed Bug Treatment Kerala">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="http://www.homesafetypestcontrol.online/">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Marcellus:wght@400&amp;display=swap" rel="stylesheet">
+    <link rel="icon" href="src/favicon.png" type="image/png">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <style>
+        /* --- 1. CORE VARIABLES & THEME --- */
+        :root {
+            /* --- NEW HEADER COLORS (White-Green Premium) --- */
+            --header-bg: #ecfdf5;    /* Premium Mint Cream (White-Green) */
+            --header-text: #064e3b;  /* Dark Jungle Green (Contrast Text) */
+            
+            /* Core Colors */
+            --primary: #0f172a;      /* Dark Slate */
+            --accent: #10b981;       /* Emerald Green */
+            --accent-hover: #059669;
+            --whatsapp: #25D366;     
+            
+            /* Backgrounds */
+            --bg-body: #f8fafc;      
+            --bg-card: #ffffff;
+            
+            /* Shadows & Radius */
+            --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            --shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            --radius: 16px;
+        }
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--primary);
+            background: var(--bg-body);
+            line-height: 1.6;
+            padding-bottom: 80px; /* Space for mobile bar */
+        }
 
+        h1, h2, h3, h4 { font-family: 'Montserrat', sans-serif; font-weight: 700; line-height: 1.2; }
+        img { width: 100%; height: 100%; object-fit: cover; display: block; }
+        a { text-decoration: none; transition: 0.3s; }
+        ul { list-style: none; }
+
+        /* --- 2. LAYOUT UTILITIES --- */
+        .container { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
+        .section-padding { padding: 90px 0; }
+        
+        .section-header { margin-bottom: 60px; text-align: center; }
+        .section-header span { 
+            color: var(--accent); 
+            text-transform: uppercase; 
+            letter-spacing: 2px; 
+            font-weight: 700; 
+            font-size: 0.8rem;
+            display: block;
+            margin-bottom: 15px;
+        }
+        .section-header h2 { font-size: 2.5rem; color: var(--primary); }
+        .section-header p { max-width: 700px; margin: 15px auto 0; color: #64748b; }
+
+        /* --- 3. HEADER --- */
+        .navbar {
+            background: var(--header-bg); 
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05); /* Softer shadow */
+            border-bottom: 1px solid #d1fae5;
+        }
+        .nav-inner {
+            height: 90px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo-container { height: 60px; display: flex; align-items: center; }
+        .logo-img { max-height: 100%; width: auto; }
+        
+        .nav-menu { display: flex; gap: 35px; align-items: center; }
+        .nav-menu a { 
+            color: var(--header-text); 
+            font-weight: 600; 
+            font-size: 0.95rem; 
+        }
+        .nav-menu a:hover { color: var(--accent); }
+
+        /* --- HAMBURGER & MOBILE DRAWER STYLES --- */
+        .hamburger-icon {
+            display: none; /* Hidden on Desktop */
+            font-size: 1.6rem;
+            color: var(--header-text);
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        /* The Slide-out Menu (RIGHT SIDE) */
+        .mobile-drawer {
+            position: fixed;
+            top: 0;
+            right: -100%; /* Hidden off-screen right */
+            width: 280px;
+            height: 100vh;
+            background: white;
+            z-index: 2500;
+            box-shadow: -5px 0 25px rgba(0,0,0,0.15);
+            transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+        }
+        .mobile-drawer.active {
+            right: 0; /* Slide in to 0 */
+        }
+
+        .drawer-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 2400;
+            opacity: 0;
+            pointer-events: none;
+            transition: 0.3s;
+        }
+        .drawer-overlay.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .mobile-drawer .close-btn {
+            align-self: flex-start; 
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+            cursor: pointer;
+            color: var(--primary);
+        }
+        .mobile-drawer a {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 25px;
+            border-bottom: 1px solid #f1f5f9;
+            padding-bottom: 15px;
+        }
+        .mobile-drawer a:hover { color: var(--accent); }
+
+
+        /* --- 4. HERO SECTION --- */
+        .hero {
+            position: relative;
+            height: 85vh;
+            background: url('src/hero.jpg'); 
+            background-image: url('src/hero.jpg'), url('https://images.unsplash.com/photo-1612151855475-877969f4a6cc?auto=format&fit=crop&w=1920');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: linear-gradient(to right, rgba(6, 78, 59, 0.95) 0%, rgba(6, 78, 59, 0.7) 60%, rgba(16, 185, 129, 0.2) 100%);
+            z-index: 1;
+        }
+
+        .hero-content { 
+            max-width: 700px; 
+            padding-left: 20px; 
+            border-left: 5px solid var(--accent); 
+            position: relative; 
+            z-index: 2; 
+        }
+        .hero h1 { font-size: 3.8rem; margin-bottom: 25px; text-shadow: 0 2px 10px rgba(0,0,0,0.3); }
+        .hero p { font-size: 1.2rem; margin-bottom: 35px; color: #f1f5f9; }
+
+        /* --- 5. ABOUT SECTION --- */
+        .about-section { background: white; }
+        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+        .about-img { 
+            height: 500px; 
+            border-radius: var(--radius); 
+            overflow: hidden; 
+            box-shadow: var(--shadow-hover);
+        }
+        .about-text h3 { font-size: 2rem; margin-bottom: 20px; color: var(--primary); }
+        .feature-list { margin-top: 30px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .feature-item { display: flex; align-items: center; gap: 10px; font-weight: 600; color: #064e3b; }
+        .feature-item i { color: var(--accent); }
+
+        /* --- 6. SERVICES GRID --- */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        .service-card {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow-card);
+            transition: 0.4s;
+            border: 1px solid #e2e8f0;
+            display: flex;
+            flex-direction: column;
+        }
+        .service-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-hover); border-color: var(--accent); }
+        .card-img { height: 200px; overflow: hidden; position: relative; }
+        .card-img img { transition: 0.6s; }
+        .service-card:hover .card-img img { transform: scale(1.1); }
+        .card-body { padding: 25px; flex: 1; display: flex; flex-direction: column; }
+        .card-body h3 { font-size: 1.25rem; margin-bottom: 10px; color: var(--primary); }
+        .card-body p { color: #64748b; font-size: 0.9rem; margin-bottom: 20px; flex: 1; }
+        
+        /* --- 7. BUTTONS --- */
+        .btn {
+            display: inline-flex; align-items: center; justify-content: center;
+            padding: 12px 28px; border-radius: 50px; font-weight: 600;
+            cursor: pointer; gap: 10px; border: none; transition: 0.3s;
+        }
+        .btn-primary { background: var(--accent); color: white; }
+        .btn-primary:hover { background: var(--accent-hover); }
+        
+        .btn-outline { border: 2px solid white; color: white; background: transparent; }
+        .btn-outline:hover { background: white; color: #064e3b; }
+        
+        .btn-whatsapp { background: var(--whatsapp); color: white; width: 100%; }
+        .btn-whatsapp:hover { background: #1ebc57; }
+
+        /* --- 8. CONTACT FORM --- */
+        .contact-wrapper {
+            background: white; border-radius: 20px; box-shadow: var(--shadow-card);
+            overflow: hidden; display: flex; flex-wrap: wrap;
+        }
+        .contact-info { background: #064e3b; color: white; padding: 60px; flex: 1; min-width: 320px; }
+        .contact-form { padding: 60px; flex: 1.5; min-width: 320px; }
+        .form-input, .form-textarea {
+            width: 100%; padding: 15px; border: 2px solid #cbd5e1; border-radius: 10px; margin-bottom: 20px; font-family: inherit;
+        }
+        .form-input:focus, .form-textarea:focus { border-color: var(--accent); outline: none; }
+
+        /* --- 9. FOOTER (UPDATED) --- */
+        .footer {
+            background: #0f172a; 
+            color: #94a3b8;
+            padding: 80px 0 30px;
+            font-size: 0.95rem;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+        .footer h4 { color: white; margin-bottom: 25px; font-size: 1.1rem; }
+        
+        /* Fixed Email Alignment Issues */
+        .footer ul li { 
+            margin-bottom: 12px; 
+            display: flex;       /* Use flexbox to align icon and text */
+            align-items: flex-start; /* Aligns to top if text wraps */
+            gap: 10px;           /* Space between icon and text */
+        }
+        
+        .footer a { color: #94a3b8; transition: 0.3s; }
+        .footer a:hover { color: var(--accent); padding-left: 5px; }
+        .footer-brand p { margin-top: 20px; line-height: 1.8; max-width: 300px; }
+        
+        .footer-bottom {
+            border-top: 1px solid #1e293b;
+            padding-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .made-by {
+            font-size: 0.85rem;
+            color: #64748b;
+        }
+        .made-by a { color: var(--accent); font-weight: 600; }
+
+        /* --- 10. MOBILE BOTTOM BAR --- */
+        .mobile-bar {
+            position: fixed; bottom: 0; left: 0; width: 100%;
+            background: white; padding: 12px 15px;
+            box-shadow: 0 -5px 20px rgba(0,0,0,0.1);
+            display: none; gap: 15px; z-index: 2000;
+        }
+        .mobile-bar .btn { flex: 1; border-radius: 10px; font-size: 0.9rem; }
+
+        /* RESPONSIVE */
+        @media (max-width: 900px) {
+            .about-grid { grid-template-columns: 1fr; }
+            .about-img { height: 350px; order: -1; }
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 768px) {
+            .nav-menu { display: none; } /* Hide Desktop Menu Links */
+            .hamburger-icon { display: block; } /* Show Hamburger */
+            
+            .navbar { height: 70px; } .nav-inner { height: 70px; }
+            .hero h1 { font-size: 2.2rem; }
+            .mobile-bar { display: flex; }
+            .contact-wrapper { flex-direction: column; }
+            .services-grid { grid-template-columns: 1fr; } 
+            .footer-grid { grid-template-columns: 1fr; gap: 30px; }
+            .footer-bottom { flex-direction: column; gap: 15px; text-align: center; }
+        }
+    </style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "LocalBusiness",
+ "name": "Home Safety Pest Control",
+ "url": "http://www.homesafetypestcontrol.online",
+ "telephone": "+919383466738",
+ "email": "homesafetypestcontrol@gmail.com",
+ "address": {
+   "@type": "PostalAddress",
+   "addressLocality": "idukki,munnar,ernakulam,thodupuzha,vagamon",
+   "addressRegion": "Kerala",
+   "postalCode": "685561",
+   "addressCountry": "IN"
+ },
+ "areaServed": {
+   "@type": "State",
+   "name": "Kerala"
+ },
+ "priceRange": "₹₹"
+}
+</script>
 </head>
+<body>
 
-<body class="index-page">
+    <div class="drawer-overlay" id="drawerOverlay" onclick="toggleMenu()"></div>
 
-  <header id="header" class="header d-flex align-items-center position-relative">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logo.png" alt="INAC">
-        <!-- <h1 class="sitename">INAC</h1>  -->
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="services.html">Our Services</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-    </div>
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-
-        <div class="carousel-item active">
-          <img src="assets/img/hero_1.jpg" alt="">
-          <div class="carousel-container">
-            <h2>Farming is the best solution of worlds starvation</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-        </div><!-- End Carousel Item -->
-
-        <div class="carousel-item">
-          <img src="assets/img/hero_2.jpg" alt="">
-          <div class="carousel-container">
-            <h2>Organic vegetables is good for health</h2>
-            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
-          </div>
-        </div><!-- End Carousel Item -->
-
-        <div class="carousel-item">
-          <img src="assets/img/hero_3.jpg" alt="">
-          <div class="carousel-container">
-            <h2>Providing Fresh Produce Every Single Day</h2>
-            <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-          </div>
-        </div><!-- End Carousel Item -->
-
-        <div class="carousel-item">
-          <img src="assets/img/hero_4.jpg" alt="">
-          <div class="carousel-container">
-            <h2>Farming as a Passione</h2>
-            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius.</p>
-          </div>
-        </div><!-- End Carousel Item -->
-
-        <div class="carousel-item">
-          <img src="assets/img/hero_5.jpg" alt="">
-          <div class="carousel-container">
-            <h2>Good Food For All</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-        </div><!-- End Carousel Item -->
-
-        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
-
-        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
-
-        <ol class="carousel-indicators"></ol>
-
-      </div>
-
-    </section><!-- /Hero Section -->
-
-<section id="services" class="services section">
-
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>SERVICES</h2>
-    <p>Providing Fresh Produce Every Single Day</p>
-  </div><!-- End Section Title -->
-
-  <!-- Services Content -->
-  <div class="content row">
-    <div class="col-6 col-md-3">
-      <div class="service-item">
-        <div class="service-item-icon">
-          <span>🌱</span>
-        </div>
-        <div class="service-item-content">
-          <h3 class="service-heading">Fresh Vegetables</h3>
-          <p>Locally grown, fresh vegetables delivered daily.</p>
-        </div>
-        <div class="number">01</div>
-      </div>
+    <div class="mobile-drawer" id="mobileDrawer">
+        <span class="close-btn" onclick="toggleMenu()"><i class="fas fa-times"></i></span>
+        <a href="#about" onclick="toggleMenu()">About Us</a>
+        <a href="#services" onclick="toggleMenu()">Our Services</a>
+        <a href="#contact" onclick="toggleMenu()">Contact Us</a>
+        <button onclick="openGenericWhatsApp()" class="btn btn-primary" style="width: 100%; margin-top: 20px;">
+            <i class="fab fa-whatsapp"></i> Chat Support
+        </button>
     </div>
 
-    <div class="col-6 col-md-3">
-      <div class="service-item">
-        <div class="service-item-icon">
-          <span>💧</span>
-        </div>
-        <div class="service-item-content">
-          <h3 class="service-heading">Aquaponics</h3>
-          <p>Eco-friendly aquaponic farming for healthy produce.</p>
-        </div>
-        <div class="number">02</div>
-      </div>
-    </div>
-
-    <div class="col-6 col-md-3">
-      <div class="service-item">
-        <div class="service-item-icon">
-          <span>🥬</span>
-        </div>
-        <div class="service-item-content">
-          <h3 class="service-heading">Organic Greens</h3>
-          <p>Certified organic greens grown with care.</p>
-        </div>
-        <div class="number">03</div>
-      </div>
-    </div>
-
-    <div class="col-6 col-md-3">
-      <div class="service-item">
-        <div class="service-item-icon">
-          <span>🍅</span>
-        </div>
-        <div class="service-item-content">
-          <h3 class="service-heading">Fresh Fruits</h3>
-          <p>Seasonal fruits delivered fresh to your doorstep.</p>
-        </div>
-        <div class="number">04</div>
-      </div>
-    </div>
-  </div><!-- End Services Content -->
-</section>
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <div class="content">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-              <img src="assets/img/img_long_5.jpg" alt="Image " class="img-fluid img-overlap" data-aos="zoom-out">
-            </div>
-            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="content-subtitle text-white opacity-50">Why Choose Us</h3>
-              <h2 class="content-title mb-4">100% Organic Produce</h2>
-              <p class="opacity-50">
-                No pesticides and insecticides are used</p>
-
-              <div class="row my-5">
-                <div class="col-lg-12 d-flex align-items-start mb-4">
-                  <i class="bi bi-cloud-rain me-4 display-6"></i>
-                  <div>
-                    <h4 class="m-0 h5 text-white">Plants Dont needs rain</h4>
-                    <p class="text-white opacity-50">Produces even in summer</p>
-                  </div>
-                </div>
-                <div class="col-lg-12 d-flex align-items-start mb-4">
-                  <i class="bi bi-heart me-4 display-6"></i>
-                  <div>
-                    <h4 class="m-0 h5 text-white">Love organic foods</h4>
-                    <p class="text-white opacity-50">Live a healthy life</p>
-                  </div>
-                </div>
-                <div class="col-lg-12 d-flex align-items-start">
-                  <i class="bi bi-shop me-4 display-6"></i>
-                  <div>
-                    <h4 class="m-0 h5 text-white">Sell vegies</h4>
-                    <p class="text-white opacity-50">Helps to sell vegetable</p></div></div></div></div></div></div></div></section><section id="about-3" class="about-3 section"><div class="container"><div class="row gy-4 justify-content-between align-items-center">
-          <div class="col-lg-5 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-            <h2 class="content-title mb-4">🌿 Plants Make Life Better</h2>
-            <p class="mb-4">
-              Plants aren’t just beautiful — they make our lives healthier, cleaner, and more inspiring. From purifying the air to uplifting our mood, greenery has the power to transform any space into a thriving, positive environment. Whether in homes, offices, or communities, plants bring balance between people and nature.
-            </p>
-            <ul class="list-unstyled list-check">
-              <li>Natural Air Purifiers – Plants absorb carbon dioxide and release oxygen, improving air quality and freshness.</li><li>Boost Mental Wellbeing – Green spaces reduce stress, increase focus, and promote relaxation.</li><li>Support Sustainable Living – Growing your own plants helps conserve resources and promotes eco-conscious habits.</li>
-            </ul>
-
-            <p><a href="#" class="btn-cta">Get in touch</a></p>
-          </div>
-        </div>
-      </div>
-    </section><!-- /About 3 Section -->
-
-    <!-- Services 2 Section -->
-    <section id="services-2" class="services-2 section dark-background">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>AQUAPONIC,BIOFLOCK,</p><p>FARM VISIT</p>
-      </div><!-- End Section Title -->
-
-      <div class="services-carousel-wrap">
-        <div class="container">
-          <div class="swiper init-swiper">
-            <script type="application/json" class="swiper-config">
-              {
-                "loop": true,
-                "speed": 600,
-                "autoplay": {
-                  "delay": 5000
-                },
-                "slidesPerView": "auto",
-                "pagination": {
-                  "el": ".swiper-pagination",
-                  "type": "bullets",
-                  "clickable": true
-                },
-                "navigation": {
-                  "nextEl": ".js-custom-next",
-                  "prevEl": ".js-custom-prev"
-                },
-                "breakpoints": {
-                  "320": {
-                    "slidesPerView": 1,
-                    "spaceBetween": 40
-                  },
-                  "1200": {
-                    "slidesPerView": 3,
-                    "spaceBetween": 40
-                  }
-                }
-              }
-            </script>
-            <button class="navigation-prev js-custom-prev">
-              <i class="bi bi-arrow-left-short"></i>
-            </button>
-            <button class="navigation-next js-custom-next">
-              <i class="bi bi-arrow-right-short"></i>
-            </button>
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="service-item">
-                  <div class="service-item-contents">
-                    <a href="#">
-                      <span class="service-item-category">We do</span>
-                      <h2 class="service-item-title">Planting</h2>
-                    </a>
-                  </div>
-                  <img src="assets/img/img_sq_1.jpg" alt="Image" class="img-fluid">
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="service-item">
-                  <div class="service-item-contents">
-                    <a href="#">
-                      <span class="service-item-category">We do</span>
-                      <h2 class="service-item-title">Mulching</h2>
-                    </a>
-                  </div>
-                  <img src="assets/img/img_sq_3.jpg" alt="Image" class="img-fluid">
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="service-item">
-                  <div class="service-item-contents">
-                    <a href="#">
-                      <span class="service-item-category">We do</span>
-                      <h2 class="service-item-title">Watering</h2>
-                    </a>
-                  </div>
-                  <img src="assets/img/img_sq_8.jpg" alt="Image" class="img-fluid">
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="service-item">
-                  <div class="service-item-contents">
-                    <a href="#">
-                      <span class="service-item-category">We do</span>
-                      <h2 class="service-item-title">Fertilizing</h2>
-                    </a>
-                  </div>
-                  <img src="assets/img/img_sq_4.jpg" alt="Image" class="img-fluid">
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="service-item">
-                  <div class="service-item-contents">
-                    <a href="#">
-                      <span class="service-item-category">We do</span>
-                      <h2 class="service-item-title">Harvesting</h2>
-                    </a>
-                  </div>
-                  <img src="assets/img/img_sq_5.jpg" alt="Image" class="img-fluid">
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="service-item">
-                  <div class="service-item-contents">
-                    <a href="#">
-                      <span class="service-item-category">We do</span>
-                      <h2 class="service-item-title">Mowing</h2>
-                    </a>
-                  </div>
-                  <img src="assets/img/img_sq_6.jpg" alt="Image" class="img-fluid">
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="service-item">
-                  <div class="service-item-contents">
-                    <a href="#">
-                      <span class="service-item-category">We do</span>
-                      <h2 class="service-item-title">Seeding Plants</h2>
-                    </a>
-                  </div>
-                  <img src="assets/img/img_sq_8.jpg" alt="Image" class="img-fluid">
-                </div>
-              </div>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </div>
-    </section><!-- /Services 2 Section -->
-
-     <!-- End Section Title -->
-
-    <!-- Recent Posts Section -->
-    <section id="recent-posts" class="recent-posts section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Recent Posts</h2>
-        <p>Necessitatibus eius consequatur</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-5">
-
-          <div class="col-xl-4 col-md-6">
-            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
-
-              <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="">
-                <span class="post-date">October 24</span></div>
-
-              <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title">St Alberts College Farm&nbsp; Visit</h3>
-
-                <div class="meta d-flex align-items-center">
-                  <div class="d-flex align-items-center"><br></div>
-                  <br><div class="d-flex align-items-center">
-                    <i class="bi bi-folder2"></i> <span class="ps-2">Aquaponic</span></div>
-                </div>
-
-                <hr>
-
-                </div></div></div><div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300"><div class="post-item position-relative h-100">
-
-            </div>
-          </div><!-- End post item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Recent Posts Section -->
-
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section light-background">
-
-      <div class="content">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <h3>Subscribe To Our Newsletter</h3>
-              <p class="opacity-50">Subscribe to our newsletter and get the latest news!
-              </p>
-            </div>
-            <div class="col-lg-6">
-              <form action="forms/newsletter.php" class="form-subscribe php-email-form">
-                <div class="form-group d-flex align-items-stretch">
-                  <input type="email" name="email" class="form-control h-100" placeholder="Enter your e-mail">
-                  <input type="submit" class="btn btn-secondary px-4" value="Subcribe">
-                </div>
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">
-                  Your subscription request has been sent. Thank you!
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- /Call To Action Section -->
-
-  </main>
-
-  <footer id="footer" class="footer dark-background">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 footer-about">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename">INAC</span>
+    <nav class="navbar">
+        <div class="container nav-inner">
+            <a href="#" class="logo-container">
+                <img src="src/logo.png" alt="Company Logo" class="logo-img" 
+                     onerror="this.onerror=null; this.src='https://placehold.co/200x60/ecfdf5/064e3b?text=YOUR+LOGO';"> 
             </a>
-            <div class="footer-contact pt-3">
-              <p>NH ROAD VALARA P.O VALARA,</p><p>IDUKKI-685561,KERALA,INDIA</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>+91 9539810190</span></p>
-              <p><strong>Email:</strong>&nbsp;inacventures<span>@gmail.com</span></p>
+
+            <div class="nav-menu">
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+                <button onclick="openGenericWhatsApp()" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.85rem; background: #064e3b;">
+                    <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                </button>
             </div>
-          </div>
 
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li>FARM VISIT</li>
-              <li>SEMINAR</li></ul></div>
-
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
-      </div>
-    </div>
+    </nav>
 
-    <div class="copyright text-center">
-      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span style="color: var(--accent); font-weight: 700; letter-spacing: 2px; text-transform: uppercase;">Premium Protection</span>
+                <h1>Guaranteed Pest Control Service in Kerala</h1>
+                <p>Advanced solutions for Rat, Termite, Cockroach, and Mosquito control. Keeping your family and business safe.</p>
+                <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                    <a href="#contact" class="btn btn-primary">Get Free Quote</a>
+                    <a href="#services" class="btn btn-outline">Explore Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <div class="d-flex flex-column align-items-center align-items-lg-start">
-          <div>
-            © Copyright <strong><span>INAC</span></strong>. All Rights Reserved
-          </div>
-          <div class="credits">
+    <section id="about" class="section-padding about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <span style="color: var(--accent); font-weight: 700;">WHO WE ARE</span>
+                    <h3>Your Trusted Partner in Hygiene</h3>
+                    <p>At Home Safety Pest Control, we don't just kill bugs; we create healthy environments. With over a decade of experience in the industry, we utilize cutting-edge technology and eco-friendly chemicals.</p>
+                    <p>We are specialized in residential complexes, hospitals, and food processing units. Our technicians are trained to handle infestations with surgical precision.</p>
+                    
+                    <div class="feature-list">
+                        <div class="feature-item"><i class="fas fa-check-circle"></i> Govt. Licensed</div>
+                        <div class="feature-item"><i class="fas fa-check-circle"></i> Odorless Treatment</div>
+                        <div class="feature-item"><i class="fas fa-check-circle"></i> 24/7 Support</div>
+                        <div class="feature-item"><i class="fas fa-check-circle"></i> Child Safe</div>
                     </div>
+                </div>
+                <div class="about-img">
+                    <img src="src/about.jpg" alt="About Image" onerror="this.src='https://images.unsplash.com/photo-1581578731117-104f2a863786?auto=format&fit=crop&w=800'">
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-          <a href=""><i class="bi bi-twitter-x"></i></a>
-          <a href=""><i class="bi bi-facebook"></i></a>
-          <a href=""><i class="bi bi-instagram"></i></a>
-          <a href=""><i class="bi bi-linkedin"></i></a>
+    <section id="services" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span>Our Expertise</span>
+                <h2>Comprehensive Pest Menu</h2>
+                <p>Choose a specific service below to book an inspection instantly.</p>
+            </div>
+
+            <div class="services-grid">
+                
+                <div class="service-card">
+                    <div class="card-img">
+                        <img src="src/rat.jpg" alt="Rat control service in Kerala" onerror="this.src='https://images.unsplash.com/photo-1453227588063-bb302b62f50b?auto=format&fit=crop&w=600'">
+                    </div>
+                    <div class="card-body">
+                        <h3>Rat Control</h3>
+                        <p>Trapping, baiting, and proofing to stop rodent entry.</p>
+                        <button onclick="bookService('Rat Control')" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Book Now</button>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="card-img">
+                        <img src="src/cockroach.jpg" alt="Cockroach Control" onerror="this.src='https://plus.unsplash.com/premium_photo-1664303123847-c0e819b12852?auto=format&fit=crop&w=600'">
+                    </div>
+                    <div class="card-body">
+                        <h3>Cockroach Gel</h3>
+                        <p>Advanced gel baiting system for kitchen cabinets.</p>
+                        <button onclick="bookService('Cockroach Control')" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Book Now</button>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="card-img">
+                        <img src="src/termite.jpg" alt="Termite Control" onerror="this.src='https://images.unsplash.com/photo-1627914046549-335193910543?auto=format&fit=crop&w=600'">
+                    </div>
+                    <div class="card-body">
+                        <h3>Termite Treatment</h3>
+                        <p>Drill-Fill-Seal chemical barrier for long-term protection.</p>
+                        <button onclick="bookService('Termite Control')" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Book Now</button>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="card-img">
+                        <img src="src/mosquito.jpg" alt="Mosquito" onerror="this.src='https://images.unsplash.com/photo-1543063236-81a1a7429188?auto=format&fit=crop&w=600'">
+                    </div>
+                    <div class="card-body">
+                        <h3>Mosquito Control</h3>
+                        <p>Larvicidal treatment for stagnant water sources.</p>
+                        <button onclick="bookService('Mosquito Control')" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Book Now</button>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="card-img">
+                        <img src="src/fogging.jpg" alt="Fogging" onerror="this.src='https://thumbs.dreamstime.com/b/thermal-fogging-mosquito-control-16654209.jpg'">
+                    </div>
+                    <div class="card-body">
+                        <h3>Mosquito Fogging</h3>
+                        <p>Thermal fogging for gardens and large compounds.</p>
+                        <button onclick="bookService('Mosquito Fogging')" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Book Now</button>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="card-img">
+                        <img src="src/bedbug.jpg" alt="Bed Bugs" onerror="this.src='https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=600'">
+                    </div>
+                    <div class="card-body">
+                        <h3>Bed Bugs</h3>
+                        <p>Intensive spray treatment for mattresses and furniture.</p>
+                        <button onclick="bookService('Bed Bug Treatment')" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Book Now</button>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="card-img">
+                        <img src="src/general.jpg" alt="General Pest" onerror="this.src='https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?auto=format&fit=crop&w=600'">
+                    </div>
+                    <div class="card-body">
+                        <h3>General Pest</h3>
+                        <p>Covering Ants, Lizards, Spiders, and Silverfish.</p>
+                        <button onclick="bookService('General Pest Control')" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Book Now</button>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="card-img">
+                        <img src="src/piping.jpg" alt="Piping" onerror="this.src='https://5.imimg.com/data5/SELLER/Default/2022/9/OL/QN/II/3305103/termite-control-piping-system.jpg'">
+                    </div>
+                    <div class="card-body">
+                        <h3>Reticulation System</h3>
+                        <p>Under-floor piping network for pre-construction termite safety.</p>
+                        <button onclick="bookService('Reticulation Piping System')" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Book Now</button>
+                    </div>
+                </div>
+
+            </div>
         </div>
+    </section>
 
-      </div>
+    <section id="contact" class="section-padding" style="background: #e2e8f0;">
+        <div class="container">
+            <div class="section-header">
+                <span>Get In Touch</span>
+                <h2>Request a Callback</h2>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3 style="color:white; margin-bottom: 30px;">CONTACT DETAILS</h3>
+                    <p style="opacity: 0.8; margin-bottom: 40px;">Serving all major districts with rapid response teams.</p>
+                    
+                    <div style="margin-bottom: 25px; display: flex; gap: 15px;">
+                        <i class="fas fa-phone-alt" style="color: var(--accent);"></i>
+                        <div><strong>+91 9383466738</strong></div>
+                    </div>
+                    <div style="margin-bottom: 25px; display: flex; gap: 15px;">
+                        <i class="fab fa-whatsapp" style="color: var(--accent);"></i>
+                        <div><strong>+91 9383466738</strong></div>
+                    </div>
+                    <div style="margin-bottom: 25px; display: flex; gap: 15px;">
+                        <i class="fas fa-map-marker-alt" style="color: var(--accent);"></i>
+                        <div><strong>Kerala, India</strong></div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="callbackForm">
+                        <label style="font-weight:600; font-size: 0.9rem; margin-bottom: 5px; display:block;">Full Name</label>
+                        <input type="text" id="nameInput" class="form-input" placeholder="Enter Name">
+
+                        <label style="font-weight:600; font-size: 0.9rem; margin-bottom: 5px; display:block;">Phone Number</label>
+                        <input type="tel" id="phoneInput" class="form-input" placeholder="Enter Phone">
+
+                        <label style="font-weight:600; font-size: 0.9rem; margin-bottom: 5px; display:block;">Service Required</label>
+                        <select id="serviceInput" class="form-input">
+                            <option value="Inquiry">Select Service</option>
+                            <option value="Rat Control">Rat Control</option>
+                            <option value="Cockroach Control">Cockroach Control</option>
+                            <option value="Termite Control">Termite Control</option>
+                            <option value="Mosquito Fogging">Mosquito Fogging</option>
+                            <option value="Bed Bugs">Bed Bugs</option>
+                            <option value="Reticulation System">Reticulation Piping System</option>
+                        </select>
+
+                        <button type="button" onclick="submitFormToWhatsApp()" class="btn btn-primary" style="width: 100%; background: #064e3b;">
+                            Send Request <i class="fas fa-paper-plane" style="margin-left: 10px;"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                
+                <div class="footer-brand">
+                    <a href="#" class="logo-container" style="display: inline-block; height: auto;">
+                        <img src="src/logo.png" alt="Company Logo" style="height: 50px; background: white; padding: 5px; border-radius: 8px;" 
+                             onerror="this.onerror=null; this.src='https://placehold.co/200x60/ecfdf5/064e3b?text=YOUR+LOGO';"> 
+                    </a>
+                    <p>Professional pest management solutions for residential and commercial properties. Licensed, insured, and committed to your safety.</p>
+                </div>
+
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#contact">Contact Support</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#">Termite Control</a></li>
+                        <li><a href="#">Cockroach Gel</a></li>
+                        <li><a href="#">Rodent Removal</a></li>
+                        <li><a href="#">Mosquito Fogging</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-phone-alt" style="color:var(--accent); margin-top:5px;"></i> 
+                            <span>+91 9383466738</span>
+                        </li>
+                        <li>
+                            <i class="fab fa-whatsapp" style="color:var(--accent); margin-top:5px;"></i> 
+                            <span>+91 9383466738</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope" style="color:var(--accent); margin-top:5px;"></i> 
+                            <span style="word-break: break-all;">homesafetypestcontrol@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt" style="color:var(--accent); margin-top:5px;"></i> 
+                            <span>Kerala, India</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Home Safety Pest Control. All Rights Reserved.</p>
+                
+                <div class="made-by">
+                    Made by <a href="https://github.com/chatexploit" target="_blank">ChatExploit</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="mobile-bar">
+        <button onclick="window.location.href='tel:+919383466738'" class="btn" style="background: #064e3b; color: white;">
+            <i class="fas fa-phone-alt"></i> Call
+        </button>
+        <button onclick="openGenericWhatsApp()" class="btn" style="background: var(--whatsapp); color: white;">
+            <i class="fab fa-whatsapp"></i> Chat
+        </button>
     </div>
 
-  </footer>
+    <script>
+        // MOBILE MENU TOGGLE LOGIC
+        function toggleMenu() {
+            const drawer = document.getElementById('mobileDrawer');
+            const overlay = document.getElementById('drawerOverlay');
+            drawer.classList.toggle('active');
+            overlay.classList.toggle('active');
+        }
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+        const myPhoneNumber = "919383466738"; 
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+        function bookService(serviceName) {
+            const message = `*Service Booking*\n\nHello Home Safety Team,\nI am interested in *${serviceName}*.\nPlease provide a quote.`;
+            const url = `https://wa.me/${myPhoneNumber}?text=${encodeURIComponent(message)}`;
+            window.open(url, '_blank');
+        }
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+        function openGenericWhatsApp() {
+            const message = `Hello,\nI need some information about pest control services.`;
+            const url = `https://wa.me/${myPhoneNumber}?text=${encodeURIComponent(message)}`;
+            window.open(url, '_blank');
+        }
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+        function submitFormToWhatsApp() {
+            const name = document.getElementById('nameInput').value;
+            const phone = document.getElementById('phoneInput').value;
+            const service = document.getElementById('serviceInput').value;
 
+            if(name === "" || phone === "") {
+                alert("Please fill in your Name and Phone.");
+                return;
+            }
+
+            const whatsappMessage = `*New Inquiry*\n\n*Name:* ${name}\n*Phone:* ${phone}\n*Service:* ${service}\n\nPlease contact me back.`;
+            const url = `https://wa.me/${myPhoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+            window.open(url, '_blank');
+        }
+    </script>
 </body>
-
 </html>
